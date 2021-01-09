@@ -1,0 +1,22 @@
+.nav-item {
+    width: 45px;
+    height:45px;
+    background-color: #000000;
+    border-radius: 50px;
+    margin: 0 7px;
+    transition: ease-in-out 0.2s;
+    position: relative;
+}
+
+.nav-item:hover {
+    transform: scale(1.03);
+    filter: brightness(1.5);
+    cursor: pointer;
+}
+
+.icon-center {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

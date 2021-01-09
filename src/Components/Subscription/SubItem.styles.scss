@@ -1,0 +1,14 @@
+.sub-item {
+    width: 45px;
+    height:45px;
+    background-color: #898989;
+    border-radius: 50px;
+    margin: 0 7px;
+    transition: ease-in-out 0.2s;
+}
+
+.sub-item:hover {
+    transform: scale(1.03);
+    filter: brightness(1.5);
+    cursor: pointer;
+}

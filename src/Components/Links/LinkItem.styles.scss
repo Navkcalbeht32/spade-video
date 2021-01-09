@@ -1,0 +1,15 @@
+.link-item {
+    color: #888888;
+    font-weight: 500;
+    transition: ease-in-out 0.1s;
+    padding: 15px 0;
+
+    span {
+        padding-left: 10px;
+    }
+}
+
+.link-item:hover {
+    color: #ffffff;
+    cursor: pointer;
+}

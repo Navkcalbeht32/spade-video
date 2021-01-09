@@ -1,0 +1,13 @@
+.ad-container {
+    background-color: #1F3548;
+    width: 100%;
+    margin: 20px auto;
+    height: 200px;
+    border-radius: 8px;
+    transition: ease-in-out 0.2s;
+}
+
+.ad-container:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+}

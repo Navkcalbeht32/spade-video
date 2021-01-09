@@ -1,0 +1,19 @@
+.button {
+    width: fit-content;
+    height: fit-content;
+    padding: 12px 15px;
+    background-color: #051E34;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+
+    h5 {
+        font-weight: 700;
+    }
+}
+
+.button:hover {
+    opacity: 0.8;
+}
