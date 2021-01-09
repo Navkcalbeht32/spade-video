@@ -1,12 +1,14 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar.component'
-import NavItem from '../NavItems/NavItem.component'
-import VideoGrid from '../VideoGrid/VideoGrid.component'
+import VideoGrid from '../VideoGrid/VideoGrid.component';
+import VideoItem from '../VideoGrid/VideoItem.component';
+import './HomeGrid.styles.scss';
 
 const HomeGrid = () => {
     return (
-        <div>
-            <Navbar />
+        <div className="home-grid">
+            <VideoGrid>
+                <VideoItem />
+            </VideoGrid>
         </div>
     )
 }

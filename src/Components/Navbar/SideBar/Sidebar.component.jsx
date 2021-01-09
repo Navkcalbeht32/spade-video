@@ -1,4 +1,11 @@
 import React from 'react';
+import './Sidebar.styles.scss'
+import LinkItem from '../../Links/LinkItem.component';
+import AdItem from '../../AdItem/AdItem.component';
+import { ReactComponent as Gear } from '../../../assets/gear.svg';
+import { ReactComponent as Logo } from '../../../assets/spade-logo.svg';
+ 
+
 
 
 const Sidebar = () => {

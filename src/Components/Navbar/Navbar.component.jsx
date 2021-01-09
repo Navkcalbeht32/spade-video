@@ -17,37 +17,6 @@ import { ReactComponent as Search } from '../../assets/search.svg';
 const Navbar = () => {
     return (
         <div className="navbar-container">
-            <div className="side-bar">
-                <div className="side-bar-top">
-                    <Logo className="nav-logo" />
-                </div>
-                <div className="side-bar-middle">
-                    <div className="center-container pad-left">
-                        <LinkItem title="View Livefeeds" />
-                        <div className="blob"></div>
-                    </div>
-                    
-                </div>
-                <div className="side-bar-bottom">
-                    <div className="container">
-                        <div className="flex-row">
-                            <h3 className="channel-heading">Channels</h3>
-                            <Gear className="channel-gear" />
-                        </div>
-                        
-                        <LinkItem title="Custom Playlists" />
-                        <LinkItem title="Spade EDU" />
-                        <LinkItem title="Gaming Center" />
-                        <LinkItem title="Podcasts" />
-                    </div>
-                    <div className="container">
-                        <AdItem />
-                        <AdItem />
-                        <AdItem />
-                        <AdItem />
-                    </div>
-                </div>
-            </div>
             <div className="header-bar">
                 <div className="header-top">
                     <div className="header-top-wrapper">

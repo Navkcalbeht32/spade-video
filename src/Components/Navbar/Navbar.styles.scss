@@ -1,13 +1,12 @@
 .navbar-container {
     position: fixed;
-    width: 100%;
-    height: 100vh;
+    width: 1000px;
+    height: 130px;
     display: flex;
+    z-index: 100;
 
-    
-    
     .container {
-        width: 90%;
+        width: 100%;
         margin: 30px auto 0 auto;
     }
 
@@ -19,51 +18,8 @@
         width: 100%;
     }
 
-    .side-bar {
-        width: 28%;
-        height: 100%;
-        background-color: #051E34;
-        max-width: 300px;
-        min-width: 250px;
-    }
-
-    .side-bar-top {
-        width: 100%;
-        height: 70px;
-        position: relative;
-
-        .nav-logo {
-            position: absolute;
-            top: 50%;
-            padding-left: 20px;
-            transform: translateY(-50%);
-        }
-    }
-
-    .side-bar-middle {
-        width: 100%;
-        height: 60px;
-        border-top: 1px solid #1c3144;
-        border-bottom: 1px solid #1c3144;
-        position: relative;
-        cursor: pointer;
-
-        .pad-left {
-            padding-left: 20px;
-        }
-        
-    }
-
-
-    .side-bar-bottom {
-        width: 100%;
-        height: 87%;
-        overflow-y: auto;
-    }
-
     .header-bar {
         width: 100%;
-        height: 100px;
         background-color: #1f1f1f;
     }
 
@@ -94,14 +50,14 @@
         }
 
         .nav-search {
-            width: 80%;
+            width: 200px;
         }
 
         .searchbar {
             height: 60%;
             border-radius: 8px;
             border: none;
-            width: 70%;
+            width: 200px;
             padding: 6px 8px 6px 40px;
             font-size: 17px;
             margin-top: 4px;
@@ -135,54 +91,4 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-}
-
-.channel-heading {
-    color: #fff;
-    font-size: 18px;
-    text-transform: uppercase;
-    margin: 20px 0;
-}
-
-.channel-gear {
-    margin: 24px 14px;
-    transform: scale(1.3);
-    transition: ease-in-out 0.2s;
-}
-
-.channel-gear:hover {
-    filter: brightness(1.3);
-    cursor: pointer;
-    transform: scale(1.5);
-}
-
-
-
-
-.blob {
-    background: rgb(194, 20, 20);
-    border-radius: 50%;
-    height: 14px;
-    width: 14px;
-    margin: 20px;
-    box-shadow: 0 0 0 rgb(194, 20, 20);
-    transform: scale(1);
-    animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-    0% {
-        transform: scale(0.95);
-        box-shadow: 0 0 0 0 rgba(194, 20, 20, 0);
-    }
-
-    70% {
-        transform: scale(1);
-        box-shadow: 0 0 0 10px rgba(194, 20, 20, 0.2);
-    }
-
-    100% {
-        transform: scale(0.95);
-        box-shadow: 0 0 0 0 rgb(194, 20, 20);
-    }
 }
